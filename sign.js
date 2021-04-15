@@ -1,5 +1,3 @@
-import '@metamask/legacy-web3';
-
 function parseSignature(signature) {
   var r = signature.substring(0, 64);
   var s = signature.substring(64, 128);
