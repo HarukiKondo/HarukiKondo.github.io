@@ -5,8 +5,10 @@
 <body>
   <script src="./sign.js" language="javascript"></script>
   <script src="https://unpkg.com/@metamask/legacy-web3@latest/dist/metamask.web3.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" crossorigin="anonymous">
   <p>
-    This page tests signing a SimpleMultiSig transaction using EIP712. It is based on <a href="https://weijiekoh.github.io/eip712-signing-demo/index.html">this EIP712 demo</a> by Wei Jie Koh.
+    <h1>EIP712に基づくマルチシグようのサンプルページです。</h1>
+    <a href="https://weijiekoh.github.io/eip712-signing-demo/index.html">this EIP712 demo</a> 
   </p>
 
   <table>
@@ -44,9 +46,9 @@
     </tbody>
   </table>
 
-  <button id="signBtn">Sign data</button>
+  <button id="signBtn">署名する</button>
   
-  <h3>Signed Data</h3>
+  <h3>署名済みデータ</h3>
   <div><textarea id='signedData' rows=8 cols=40></textarea></div>
   
 
