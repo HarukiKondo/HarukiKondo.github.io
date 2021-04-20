@@ -8,46 +8,45 @@
 <body class="container">
   <p>
     <h1>マルチシグのサンプルページです。</h1>
-    <a href="https://weijiekoh.github.io/eip712-signing-demo/index.html">this EIP712 demo</a> 
+    <a href="https://weijiekoh.github.io/eip712-signing-demo/index.html">this EIP712 demo</a>
   </p>
   <div role="main">
     <div class="form-group">
-        <label for="walletAddress">Wallet address</label>
-        <input type="text" name="walletAddress" id="walletAddress" size="40" class="form-control" value="0x84F0f2766a52a1A514253D873e9FbEBFb83423a3">
+      <label for="walletAddress">Wallet address</label>
+      <input type="text" name="walletAddress" id="walletAddress" size="40" class="form-control" value="0x84F0f2766a52a1A514253D873e9FbEBFb83423a3">
     </div>
     <div class="form-group">
-        <label for="destination">Destination</label>
-        <input type="text" name="destination" id="destination" size="40" class="form-control" value="0x84F0f2766a52a1A514253D873e9FbEBFb83423a3">
+      <label for="destination">Destination</label>
+      <input type="text" name="destination" id="destination" size="40" class="form-control" value="0x84F0f2766a52a1A514253D873e9FbEBFb83423a3">
     </div>
     <div class="form-group">
-        <label for="value">Value</label>
-        <input type="text" name="value" id="value" size="10" class="form-control" value="1000000000000">
+      <label for="value">Value</label>
+      <input type="text" name="value" id="value" size="10" class="form-control" value="1000000000000">
     </div>
     <div class="form-group">
-        <label for="data">Data</label>
-        <input type="text" name="data" id="data" size="40" class="form-control" value="0xf207564e0000000000000000000000000000000000000000000000000000000000003039">
+      <label for="data">Data</label>
+      <input type="text" name="data" id="data" size="40" class="form-control" value="0xf207564e0000000000000000000000000000000000000000000000000000000000003039">
     </div>
     <div class="form-group">
-        <label for="nonce">Nonce</label>
-        <input type="text" name="nonce" id="nonce" size="10" class="form-control" value="0">
+      <label for="nonce">Nonce</label>
+      <input type="text" name="nonce" id="nonce" size="10" class="form-control" value="0">
     </div>
     <div class="form-group">
-        <label for="executor">Executor</label>
-        <input type="text" name="executor" id="executor" size="40" class="form-control" value="0x39623a0315CC878F593d62cB514D04e5CBf612BE">
+      <label for="executor">Executor</label>
+      <input type="text" name="executor" id="executor" size="40" class="form-control" value="0x39623a0315CC878F593d62cB514D04e5CBf612BE">
     </div>
     <div class="form-group">
-        <label for="gasLimit">GasLimit</label>
-        <input type="text" name="gasLimit" id="gasLimit" size="10" class="form-control" value="100000">
+      <label for="gasLimit">GasLimit</label>
+      <input type="text" name="gasLimit" id="gasLimit" size="10" class="form-control" value="100000">
     </div>
   </div>
   
   <div class="center-block">
     <button id="signBtn" class="btn btn-primary">署名する</button>
-  
-    
+  </div>
+
   <h3>署名済みデータ</h3>
   <div><textarea id='signedData' rows=8 cols=155></textarea></div>
-  
+
 
 </body>
-  
